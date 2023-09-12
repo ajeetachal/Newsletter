@@ -58,10 +58,11 @@ main, .main{
 }
 
 .part2{
-    background: url(/Newsletter/assets/images/illustration-sign-up-mobile.svg);
+    background: url(/Newsletter/assets/images/illustration-sign-up-desktop.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 12px;
 }
 li{
     list-style: none;
@@ -122,7 +123,7 @@ button:active{
         margin: 2rem;
     }
     .part2{
-        background: url(/assets/images/illustration-sign-up-mobile.svg);
+        background: url(/Newsletter/assets/images/illustration-sign-up-mobile.svg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
