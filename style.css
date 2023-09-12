@@ -58,7 +58,7 @@ main, .main{
 }
 
 .part2{
-    background: url(https://github.com/ajeetachal/Newsletter/blob/main/assets/images/illustration-sign-up-desktop.svg);
+    background: url(/Newsletter/assets/images/illustration-sign-up-mobile.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
