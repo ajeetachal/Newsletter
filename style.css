@@ -52,8 +52,8 @@ main, .main{
     display: flex;
 }
 .part1, .part2{
-    width: 15rem;
-    height: 23rem;
+    width: 20rem;
+    height: 26rem;
     padding: 1rem;
 }
 
