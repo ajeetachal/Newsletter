@@ -58,7 +58,7 @@ main, .main{
 }
 
 .part2{
-    background: url(/assets/images/illustration-sign-up-desktop.svg);
+    background: url(./assets/images/illustration-sign-up-desktop.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
