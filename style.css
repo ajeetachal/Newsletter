@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root {
+--Dark_Slate_Grey: hsl(234, 29%, 20%);
+--Charcoal_Grey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+--Tomato: hsl(4, 100%, 67%)
+}
+body{
+    background-color: var(--Charcoal_Grey) ;
+    font-family: 'Roboto', sans-serif;
+}
+.successmessgae{
+    display: none;
+    width: 280px;
+    text-align: left;
+    margin: 10px;
+}
+.successmessgae i{
+    font-size: 50px;
+    color: linear-gradient(90deg,  hsl(4, 100%, 67%), hsl(56, 62%, 50%));
+}
+.successmessgae button{
+    background: linear-gradient(90deg,  hsl(4, 100%, 67%), hsl(25, 100%, 67%));
+    border:  hsl(4, 100%, 67%) 0.5px;
+    box-shadow: 4px 4px 4px 0px  hsl(4, 97%, 72%);
+}
+.successmessgae p{
+    font-size: 12px;
+}
+.error{
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+}
+#errormessage{
+    color: red;
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+main, .main{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 1rem;
+    background-color: var(--White);
+    border-radius: 25px;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.part1, .part2{
+    width: 15rem;
+    height: 23rem;
+    padding: 1rem;
+}
+
+.part2{
+    background: url(/assets/images/illustration-sign-up-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+    list-style: none;
+    font-size: 11px;
+    margin-bottom: 10px;
+    display: flex;
+}
+i{
+    font-size: 13px;
+    margin-right: 5px;
+    color: var(--Tomato);
+}
+h2{
+    font-size: 35px;
+}
+p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.mail{
+    margin-top: 30px;
+}
+label{
+    font-size: 12px;
+    font-weight: 500;
+}
+input{
+    width: 95%;
+    height: 2rem;
+    margin-bottom: 10px;
+}
+button{
+    width: 99%;
+    height: 2.5rem;
+    background-color: var(--Dark_Slate_Grey);
+    color: var(--White);
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+button:active{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+#userId{
+  font-weight: 600;
+}
+@media screen and (max-width: 580px){
+
+    #main{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 2rem;
+    }
+    .part2{
+        background: url(/assets/images/illustration-sign-up-mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .part1, .part2{
+        width: 20rem;
+        height: auto;
+        padding: 1rem;
+        text-align: center;
+    }
+    .part2{
+        height: 10rem;
+        border-radius: 12px;
+    }
+    .mail{
+        text-align: left;
+    }
+}
